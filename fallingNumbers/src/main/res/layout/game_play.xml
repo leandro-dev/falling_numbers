@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frameLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:focusable="true"
+	android:focusableInTouchMode="true">
+	 <RelativeLayout android:id="@+id/gameLayout"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:background="@android:color/white"
+	       android:visibility="invisible">
+	       <include android:id="@+id/includeLeft"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_alignParentLeft="true"
+	           layout="@layout/buttons_left"/>
+	       <include android:id="@+id/includeRight"
+	           android:layout_width="wrap_content"
+	           android:layout_height="match_parent"
+	           android:layout_alignParentRight="true"
+	           layout="@layout/buttons_right"/>
+	       <include android:id="@+id/includeBottom"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_alignParentBottom="true"
+	           android:layout_toLeftOf="@+id/includeRight"
+	           android:layout_toRightOf="@+id/includeLeft"
+	           layout="@layout/buttons_bottom"/>
+	       <FrameLayout android:id="@+id/mainContentLayout"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_toLeftOf="@+id/includeRight"
+	           android:layout_toRightOf="@+id/includeLeft"
+	           android:layout_above="@+id/includeBottom">
+	        <com.leandroideias.falling.numbers.canvas.LinesView
+	            android:id="@+id/backView"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" />
+	        <com.leandroideias.falling.numbers.canvas.NumbersView
+	            android:id="@+id/numbersView"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" />
+	        <com.leandroideias.falling.numbers.canvas.FireView
+	            android:id="@+id/frontView"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent" />
+	       </FrameLayout>
+	   </RelativeLayout>
+	   <com.leandroideias.falling.numbers.canvas.AnimateStartView
+	       android:id="@+id/animateStartView"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent" />
+	   <LinearLayout android:id="@+id/menuInGame"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:visibility="invisible"
+	    android:gravity="center">
+	    <Button android:id="@+id/resumeButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/resume"
+	        style="@style/TextFont"/>
+	    <Button android:id="@+id/restartButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/restart"
+	        style="@style/TextFont"/>
+	    <Button android:id="@+id/giveupButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/giveup"
+	        style="@style/TextFont"/>
+	</LinearLayout>
+</FrameLayout>

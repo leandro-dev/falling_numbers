@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference 
+        android:key="orientation_preference"
+        android:title="@string/orientation_preference_title"
+        android:entries="@array/orientation_preference_user_values"
+        android:entryValues="@array/orientation_prefenrece_entry_values"
+        android:dialogTitle="@string/orientation_preference_title"
+        android:defaultValue="@string/default_screen_orientation"/>
+    <ListPreference
+        android:key="keyboard_preference"
+        android:title="@string/keyboard_preference_title"
+        android:entries="@array/keyboard_preference_user_values"
+        android:entryValues="@array/keyboard_preference_entry_values"
+        android:dialogTitle="@string/keyboard_preference_title"
+        android:defaultValue="@string/default_keyboard_preference" />
+</PreferenceScreen>

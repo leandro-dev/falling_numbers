@@ -1,0 +1,100 @@
+<resources>
+	<!-- Lixo -->
+	<string name="falling_numbers">Falling Numbers</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_game">Game</string>
+	
+	<!-- Tela inicial -->
+	<string name="play">Play</string>
+	<string name="rank">Ranking</string>
+	<string name="achievements">Achievements</string>
+	<string name="settings">Settings</string>
+	
+	<!-- Tela de escolha de dificuldade -->
+	<string name="begginer">Beginner</string>
+	<string name="easy">Easy</string>
+	<string name="medium">Medium</string>
+	<string name="hard">Hard</string>
+	<string name="insane">Insane</string>
+	<string name="impossible">Impossible</string>
+	
+	<string name="warmingAdvice">Get ready!</string>
+	<string name="go">Go!</string>
+	
+	<string name="resume">Continue</string>
+	<string name="restart">Restart</string>
+	<string name="giveup">Give up</string>
+	
+	<string name="endGameScore">Score: </string>
+	<string name="you_got">You got</string>
+	<string name="points">points.</string>
+	<string name="continue_">Continue</string>
+	<string name="main_menu">Initial menu</string>
+	<string name="send_score">Send score</string>
+	
+	<!-- Preference Screen -->
+	<string name="orientation_preference_title">Orientation</string>
+	<string-array name="orientation_preference_user_values">
+	    <item>Portrait</item>
+	    <item>Landscape</item>
+	</string-array>
+	<string-array name="orientation_prefenrece_entry_values">
+	    <item>portrait</item>
+	    <item>landscape</item>
+	</string-array>
+	<!-- MUST BE ONE OF THE ITENS LISTED ON orientation_preference_entry_values -->
+	<string name="default_screen_orientation">portrait</string>
+	
+	<string name="keyboard_preference_title">Keyboard</string>
+	<string-array name="keyboard_preference_user_values">
+	    <item>Under</item>
+	    <item>Sides</item>
+	    <item>No keyboard</item>
+	</string-array>
+	<string-array name="keyboard_preference_entry_values">
+	    <item>bottom</item>
+	    <item>sides</item>
+	    <item>invisible</item>
+	</string-array>
+	<!-- MUST BE ONE OF THE ITENS LISTED ON keyboard_preference_entry_values -->
+	<string name="default_keyboard_preference">bottom</string>
+	
+	
+	<!-- Ranking -->
+	<string name="select">Select</string>
+	<string name="see_rank_by">See ranking by</string>
+	<string name="select_difficulty">Select a difficulty</string>
+	<string name="thebests">The bests</string>
+	<string name="day">Day</string>
+	<string name="week">Week</string>
+	<string name="alltime">Overall</string>
+	<string-array name="categoryTimePeriod">
+	    <item>@string/day</item>
+	    <item>@string/week</item>
+	    <item>@string/alltime</item>
+	</string-array>
+	<string-array name="categoryDifficulty">
+	    <item>@string/easy</item>
+	    <item>@string/medium</item>
+	    <item>@string/hard</item>
+	    <item>@string/insane</item>
+	</string-array>
+	<string name="winners">Winners</string>
+	<string name="see_rank">See the ranking</string>
+	
+	
+	<!-- Google login -->
+	<string name="login_failed">Error at log in with google account.</string>
+	<string name="logout">Logout</string>
+	
+	
+	<!-- Bagunçado -->
+	<string name="score">Score</string>
+	<string name="abandon">Abandon</string>
+	<string name="cancel">Cancel</string>
+	<string name="why_to_login">You must log into your google+ account to enable this feature.</string>
+	<string name="score_submitted">Score sent.</string>
+	<string name="achievements_under_construction">It\'s not possible yet to unlock achievements. Wait until a next version of the application.</string>
+	
+</resources>

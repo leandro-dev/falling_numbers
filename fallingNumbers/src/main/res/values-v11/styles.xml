@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="ButtonDuringGame">
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

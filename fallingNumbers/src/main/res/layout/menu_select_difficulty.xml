@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="false"
+    android:layout_gravity="center_vertical">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center">
+	    <Button android:id="@+id/easyButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/easy"
+	        style="@style/TextFont"/>
+	    <Button android:id="@+id/mediumButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/medium"
+	        style="@style/TextFont"/>
+	    <Button android:id="@+id/hardButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hard"
+	        style="@style/TextFont"/>
+	    <Button android:id="@+id/insaneButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/insane"
+	        style="@style/TextFont"/>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My APP ID -->
+    <string name="app_id">958961613011</string>
+
+    <!-- TODO: Replace these by your achievement/leaderboard IDs! -->
+    <!-- <string name="achievement_prime">CgkImfmdt4AdEAIQAQ</string> -->
+    
+	<!-- Scoreboards -->
+    <string name="scoreboard_easy">CgkI0_HDtPQbEAIQAg</string>
+    <string name="scoreboard_medium">CgkI0_HDtPQbEAIQAw</string>
+    <string name="scoreboard_hard">CgkI0_HDtPQbEAIQBA</string>
+    <string name="scoreboard_insane">CgkI0_HDtPQbEAIQBQ</string>
+</resources>
